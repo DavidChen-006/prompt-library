@@ -56,7 +56,7 @@ Format:
 
 ## ladder-of-thinkers
 **Does:** Explains a concept as a role-play ladder of progressively smarter thinkers, each theory dying from one concrete flaw, ending with the true answer and a moral.
-**Use when:** The user wants deep *intuition* for why the right answer is right and the tempting answers are wrong — "explain X so I really get it", counterintuitive concepts, "why isn't it just...". Not builder-order mechanics (`reverse-engineer`) or axioms (`first-principles`).
+**Use when:** The user wants deep *intuition* for why the right answer is right and the tempting answers are wrong — "explain X so I really get it", counterintuitive concepts, "why isn't it just...". Not for idea history — that's `heritage-line`.
 
 ## input-output-data-flow
 **Does:** States a component's input and output, then walks each transformation step by step through it.
@@ -64,7 +64,7 @@ Format:
 
 ## heritage-line
 **Does:** Teaches a concept through the history of its underlying ideas — a map of thinkers, taught one stop at a time in their own world, user builds the bridge back.
-**Use when:** The user wants to *learn* a concept via where its ideas came from — an interactive, multi-turn study session. Distinct from `trace-the-reference` (literary allusions in a text) and `first-principles` (axioms, no history).
+**Use when:** The user wants to *learn* a concept via where its ideas came from — an interactive, multi-turn study session. Distinct from `ladder-of-thinkers` (intuition via failing theories, single-shot).
 
 ## code-path-trace
 **Does:** Gives the executed lines, in order, with links, from point A to point B in a codebase.
